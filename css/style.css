@@ -179,6 +179,36 @@ body {
   color: #fff;
 }
 
+/* contact */
+.contact form {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.contact form input[type="text"] {
+  width: 50%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.contact form textarea {
+  width: 50%;
+  height: 100px;
+}
+
+.contact form button {
+  width: 50%;
+  padding: 10px 0;
+  border: 0;
+  color: #fff;
+  background: #222;
+}
+
+.contact form label {
+  text-transform: uppercase;
+}
+
 /* media queries */
 @media (max-width: 800px) {
   #showcase h1 {
