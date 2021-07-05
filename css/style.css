@@ -157,6 +157,28 @@ body {
   color: #fff;
 }
 
+/* page */
+
+#page {
+  margin-bottom: 40px;
+}
+
+/* services */
+.services ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.services ul li:nth-child(odd) {
+  background: #333;
+  color: #fff;
+}
+
+.services ul li:nth-child(even) {
+  background: #56a79a;
+  color: #fff;
+}
+
 /* media queries */
 @media (max-width: 800px) {
   #showcase h1 {
