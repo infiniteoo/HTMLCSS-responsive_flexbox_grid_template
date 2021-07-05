@@ -209,6 +209,12 @@ body {
   text-transform: uppercase;
 }
 
+/* subheader */
+#subheader {
+  background: #333;
+  color: #fff;
+}
+
 /* media queries */
 @media (max-width: 800px) {
   #showcase h1 {
